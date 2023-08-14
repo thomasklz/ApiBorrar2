@@ -1,0 +1,57 @@
+
+
+
+<form action="">
+
+    <div  style="margin: 10px;">
+        <label for=""> Rol
+            <select name="" id="">
+                <option value="0">Seleccione el rol...</option>
+                <option value="1">Administrador</option>
+                <option value="2">Usuario</option>
+            </select>
+        </label>
+        
+    </div>
+    <div style="margin: 10px;">
+        <label for=""> Name
+            <input type="text" [(ngModel)]="name" name="name" >
+        </label>
+    </div>
+
+    <div style="margin: 10px;">
+        <label for=""> email
+            <input type="email" [(ngModel)]="email" name="email">
+        </label>
+    </div>
+    <div style="margin: 10px;">
+        <label for=""> password
+            <input type="password" [(ngModel)]="password" name="password" >
+        </label>
+    </div>
+    <div style="margin: 10px;">
+        <label for=""> Nombre
+            <input type="text" [(ngModel)]="nombre" name="nombre">
+        </label>
+    </div>
+    <div style="margin: 10px;">
+        <label for=""> Cedula
+            <input type="text" [(ngModel)]="cedula" name="cedula" >
+        </label>
+    </div>
+    <div style="margin: 10px;">
+        <label for=""> Direccion
+            <input type="text"  [(ngModel)]="direccion" name="direccion">
+        </label>
+    </div>
+    <div style="margin: 10px;">
+        <label for=""> Fecha de nacimiento
+            <input type="date" [(ngModel)]="fnacimiento" name="fnacimiento">
+        </label>
+    </div>
+    <div>
+        <button (click)="addPersona()"> Guardar</button>
+    </div>
+
+  
+</form>

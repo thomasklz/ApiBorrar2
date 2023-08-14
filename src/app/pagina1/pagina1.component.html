@@ -1,0 +1,19 @@
+
+<div>
+    <button (click)="page1()" > P1</button>
+    <button  (click)="page2()"> P2</button>
+    <button  (click)="page3()"> P3</button>
+</div>
+<div *ngFor="let item of episodios" >
+    <div>
+        <label> Nombre del episodio: {{item.name}}</label>
+    </div>
+    <div>
+        <label> Fecha: {{item.air_date}}</label>
+    </div>
+    <div>
+        <label> episode: {{item.episode}}</label>
+    </div>
+    <hr>
+</div>
+
